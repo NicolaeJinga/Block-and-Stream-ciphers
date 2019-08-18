@@ -7,3 +7,11 @@ On the right side, there are the four ciphers implemented. In the middle, there 
 
 ![](licentaUI.png)
 
+
+Below we encrypt image linux.png with AES cipher. At first we encrypt it with ECB operation mode, and we can still see the linux's logo silhouette, but when we encrypt it with CBC (which is strictly superior to ECB mode), there are no longer any traces of the original image.
+
+![](encryptimage.gif)
+
+And an example on textfiles and its contents: Encrypting the message within a text file. In the video below, it is shown the contents after the encryption and the contents after the encryption (notice that after the encryption we can see three NULLS after the decrypted text, this is normal and it is because of the padding done by encryption because the ciphers works in blocks of equal size, hence the padding)
+
+![](encrypttextfile.gif)
