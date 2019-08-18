@@ -3,6 +3,6 @@ Bachelor's thesis project. Implemented AES, DES, 3DES and RC4 ciphers, as well a
 
 ## Project Description
 
-![](licenta.gif)
+![](licentaUI.png)
 
 ## Usage
